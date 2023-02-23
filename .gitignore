@@ -37,3 +37,4 @@ cypress/cucumber-json
 
 # Next.js cache
 /.next/
+node_modules
