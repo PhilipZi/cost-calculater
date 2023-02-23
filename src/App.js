@@ -38,6 +38,7 @@ function App () {
 		setExpenses(prevExpenses => {
 			return [expense, ...prevExpenses];
 		});
+		
 	}
 
 	return (
