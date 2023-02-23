@@ -32,9 +32,14 @@ function App () {
 		},
 	];
 
+	function addExpenseHanlder(expense){
+		console.log('in app js');
+		console.log(expense);
+	}
+
 	return (
 		<div>
-			<NewExpense/>
+			<NewExpense onAddExpense={addExpenseHanlder}/>
 			<Expenses items={expenses} />
 		</div>
 	);
